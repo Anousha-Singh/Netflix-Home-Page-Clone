@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 *{
     padding: 0;
     margin: 0;
+    font-family: 'poppins','sans-serif';
 }
 
 .main{
-    /* background-image: url(Assests/Backgroundimage.jpg); */
-    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/0552717c-9d8c-47bd-9640-4f4efa2de663/537e2c5e-c750-4d4c-9f7a-e66fe93eb977/IN-en-20240701-POP_SIGNUP_TWO_WEEKS-perspective_WEB_b00eeb83-a7e8-4b5b-8ff7-86ed92c51caf_large.jpg);
+    background-image: url(Assests/Backgroundimage.jpg);
+    /* background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/0552717c-9d8c-47bd-9640-4f4efa2de663/537e2c5e-c750-4d4c-9f7a-e66fe93eb977/IN-en-20240701-POP_SIGNUP_TWO_WEEKS-perspective_WEB_b00eeb83-a7e8-4b5b-8ff7-86ed92c51caf_large.jpg); */
     background-position: center top;
     
     background-repeat: no-repeat;
@@ -17,7 +20,7 @@
 }
 
 .main .box{
-    height: 100vh;
+    height: 99vh;
     width: 100%;
     opacity: 0.5;
     background-color: black;
@@ -27,8 +30,48 @@
 
 nav{
     display: flex;
-    max-width: 80vw;
+    max-width: 77vw;
     margin: auto;
     justify-content: space-between;
     align-items: center;
 }
+
+nav img{
+    width: 165px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button{
+    position: relative;
+    z-index: 10;
+}
+
+.sec1text{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+    z-index: 10;
+    font-family:'Martel Sans',sans-serif;
+    gap: 20px;
+}
+
+.sec1text> :nth-child(1){
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.sec1text >:nth-child(2){
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.sec1text >:nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+}
+
