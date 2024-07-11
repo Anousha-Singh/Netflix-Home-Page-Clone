@@ -182,14 +182,32 @@ nav div{
 .first{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin: auto;
-    max-width: 70vw;
+    max-width: 75vw;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
 }
 
 .first div{
     color: white;
     display: flex;
     flex-direction: column;
+    gap: 2px;
+}
+
+.first div >:nth-child(1){
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+
+.first div >:nth-child(2){
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.secImg img{
+    height: 55vh;
 }
