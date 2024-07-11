@@ -178,3 +178,18 @@ nav div{
 .getStarted svg{
     margin-left: 12px;
 }
+
+.first{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 70vw;
+}
+
+.first div{
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
