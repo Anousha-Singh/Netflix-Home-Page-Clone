@@ -214,18 +214,55 @@ nav div{
     font-weight: 400;
 }
 
-.secImg{
+.firstImg{
     position: relative;
 }
 
-.secImg img{
+.firstImg img{
     height: 55vh;
     z-index: 1;
 }
 
-.secImg video{
+.firstImg video{
     padding-top: 5.5rem;
     padding-left: 4.7rem;
     position: absolute;
     height: 30.5vh;
+}
+
+
+.second{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    max-width: 65vw;
+    margin-top: 8vh;
+    margin-bottom: 10vh;
+}
+
+.sec2text{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: 'poppins';
+}
+
+.secondImg img{
+    height: 55vh;
+}
+
+.sec2text >:nth-child(1){
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+
+.sec2text >:nth-child(2){
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: sans-serif;
+    margin-top: 1rem;
 }
