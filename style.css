@@ -238,7 +238,7 @@ nav div{
     align-items: center;
     justify-content: center;
     margin: auto;
-    max-width: 65vw;
+    max-width: 73vw;
     margin-top: 8vh;
     margin-bottom: 10vh;
 }
@@ -255,14 +255,37 @@ nav div{
 }
 
 .sec2text >:nth-child(1){
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: 900;
     font-family: sans-serif;
 }
 
 .sec2text >:nth-child(2){
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-weight: 400;
     font-family: sans-serif;
     margin-top: 1rem;
+}
+
+.downloading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 12vh;
+    width: 20vw;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: white;
+
+}
+
+.downloading img{
+    height: 10vh;
+}
+
+.downloadingText{
+    display: flex;
+    flex-direction: column;
+    color: white;
 }
