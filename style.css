@@ -268,24 +268,52 @@ nav div{
 }
 
 .downloading{
+    top: 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     height: 12vh;
-    width: 20vw;
+    width: 60%;
     border-style: solid;
-    border-radius: 5px;
-    border-color: white;
+    border-width: 2px;
+    border-radius: 0.75rem;
+    border-color: rgba(117, 115, 115, 0.812);
+    background-color: black;
+    overflow:hidden;
 
 }
 
-.downloading img{
+.downloading >:nth-child(1){
+    margin-left: 0.75rem;
     height: 10vh;
+}
+
+.downloading >:nth-child(3){
+    height: 3rem;
+    margin-right: 0.75rem;
 }
 
 .downloadingText{
     display: flex;
     flex-direction: column;
     color: white;
+}
+
+.downloadingText >:nth-child(1){
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+.downloadingText >:nth-child(2){
+    color: #0071eb;
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
+.secondImg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
