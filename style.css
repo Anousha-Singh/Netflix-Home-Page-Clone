@@ -396,11 +396,14 @@ nav div{
     font-size: 3.2rem;
     font-weight: 900;
     font-family: sans-serif;
-    letter-spacing: 1px;
 }
 
 .sec4text >:nth-child(2){
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     font-weight: 400;
     font-family: sans-serif;
+}
+
+.fourth img{
+    height: 55vh;
 }
