@@ -372,3 +372,35 @@ nav div{
     left: 6.7rem;
     height: 27vh;
 }
+
+.fourth{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    justify-content: center;
+    margin: auto;
+    max-width: 77vw;
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+}
+
+.sec4text{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;    
+}
+
+.sec4text >:nth-child(1){
+    font-size: 3.2rem;
+    font-weight: 900;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+.sec4text >:nth-child(2){
+    font-size: 1.6rem;
+    font-weight: 400;
+    font-family: sans-serif;
+}
