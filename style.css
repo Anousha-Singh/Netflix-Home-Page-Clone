@@ -16,9 +16,7 @@ body{
     background-repeat: no-repeat;
     background-size: max(1600px, 100vw);
     height:100vh;
-    position: relative;
-    
-    
+    position: relative;   
 }
 
 .main .shade{
@@ -135,7 +133,7 @@ nav div{
     width: 42vw;
 }
 
-.search input[type="text"] {
+.search input[type="text"], .sec5text2 >:nth-child(2) input{
     background: rgba(5, 5, 5, 0.326);
     /* filter: opacity(0); */
     border-color:rgb(119, 118, 118);
@@ -150,7 +148,7 @@ nav div{
     width: 100%;
   }
 
-.search button{
+.search button, .sec5text2 >:nth-child(2) button{
     background: rgb(229, 9, 20);
     color: rgb(255, 255, 255);
     font-family: 'Arial','Martel Sans', sans-serif;
@@ -417,6 +415,11 @@ nav div{
     margin-bottom: 8vh;
 }
 
+.sec5text{
+    display: flex;
+    flex-direction:column ;
+}
+
 .sec5text>:nth-child(1){
     text-align: center;
     font-size: 3rem;
@@ -429,13 +432,19 @@ nav div{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* width: 72vw; */
     width: 100%;
     color: white;
     background-color: rgb(45, 45, 45);
-    padding: 1.5rem;
+    padding: 1.6rem;
     margin-bottom: 0.5rem;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     font-weight: 400;
     font-family: sans-serif;
+}
+
+.sec5text2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
