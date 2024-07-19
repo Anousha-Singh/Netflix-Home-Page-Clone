@@ -135,7 +135,6 @@ nav div{
 
 .search input[type="text"], .sec5text2 >:nth-child(2) input{
     background: rgba(5, 5, 5, 0.326);
-    /* filter: opacity(0); */
     border-color:rgb(119, 118, 118);
     border-width: 1px;
     border-radius: 4px;
@@ -447,4 +446,18 @@ nav div{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.sec5text2 >:nth-child(1){
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.sec5text2 >:nth-child(2){
+    display: flex;
+    flex-direction: row;
+    width: 40vw;
 }
