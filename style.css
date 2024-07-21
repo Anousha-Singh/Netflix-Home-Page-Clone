@@ -467,9 +467,9 @@ nav div{
     flex-direction: column;
     justify-content: left;
     align-items: flex-start;
-    width: 80vw;
+    width: 77vw;
     margin: auto;
-    margin-top: 2rem;
+    margin-top: 5rem;    
     gap: 2rem;
 }
 
@@ -478,24 +478,41 @@ nav div{
     display: flex;
     flex-direction: row;
     justify-content:stretch;
-    /* margin-left: 10vw;
-    margin-right: 10vw; */
 }
 
 .list ul{
     list-style-type: none;
     color: white;
     gap: 1rem;
+    margin-left: 12rem;
+}
+
+.list ul li{
+    margin: 0.75rem 0;
+    width: 100%;
+    font-size: 0.9rem;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.list>:first-child{
+    margin-left: 0;
 }
 
 a{
     color: rgba(255, 255, 255, 0.7);
+    font-weight: 400;
 }
 
-.btn{
-    margin-left: 10vw;
-}
-
-footer>:last-child{
+.foot >:first-child{
     color: rgba(255, 255, 255, 0.7);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.foot>:last-child{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-bottom: 5rem;
 }
