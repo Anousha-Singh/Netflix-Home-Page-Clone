@@ -524,3 +524,10 @@ a{
     transition-property: background-color;
     transition-timing-function: cubic-bezier(0.26, 0.29, 0.43, 1.01);
 }
+
+.signIn:hover, .search button:hover, .sec5text2 >:nth-child(2) button:hover{
+    background-color: rgb(187, 7, 16);
+    transition-duration: 250ms;
+    transition-property: background-color;
+    transition-timing-function: cubic-bezier(0.26, 0.29, 0.43, 1.01);
+}
