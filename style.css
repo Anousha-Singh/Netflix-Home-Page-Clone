@@ -439,6 +439,7 @@ nav div{
     font-size: 1.6rem;
     font-weight: 400;
     font-family: sans-serif;
+    cursor: pointer;
 }
 
 .sec5text2{
@@ -515,4 +516,11 @@ a{
     font-size: 0.9rem;
     font-weight: 400;
     margin-bottom: 5rem;
+}
+
+.box:hover{
+    background-color: rgb(60, 60, 60);
+    transition-duration: 250ms;
+    transition-property: background-color;
+    transition-timing-function: cubic-bezier(0.26, 0.29, 0.43, 1.01);
 }
