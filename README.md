@@ -8,6 +8,6 @@ A UI clone of the Netflix home page, created using HTML and CSS. This project re
 - **CSS** for styling and design.
 
 ## How to Use 
-1. Clone or download this repository:
+1. Clone or download this repository.
 2. Run the index.html file.
    
