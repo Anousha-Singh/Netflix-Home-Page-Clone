@@ -6,7 +6,6 @@ A UI clone of the Netflix home page, created using HTML and CSS. This project re
 ## Technologies Used 
 - **HTML** for structuring the content.
 - **CSS** for styling and design.
-- **Local Storage** (if applicable) for saving user preferences.
 
 ## How to Use 
 1. Clone or download this repository:
